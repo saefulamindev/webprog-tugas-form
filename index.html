@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!-- My CSS -->
+
+
+    <title>Form Validasi</title>
+  </head>
+  <body class="mt-5">
+
+    
+
+    <!-- Navbar -->
+
+            <section class="navbar" id="navbar">
+                
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background: #6600CC;">
+                <div class="container">
+                    <div class="container">
+                    <a class="navbar-brand" href="#">Form Mahasiswa Baru</a>
+                    </div>
+                </div>
+                </nav>               
+            </section>
+
+            <!-- Form -->
+        
+            
+            <div class="container">
+            <div class="row justify-content-center">                                      
+            <div class="col-lg-6 ">
+            <form onsubmit="validation()">
+                 <div class="form-group">
+                        <label>Username :</label>
+                        <input type="text" id="username" class="form-control" name="user" placeholder="Masukan Username Anda" autocomplete="off">
+                        <span id="usernames" class="text-danger font-weight-bold"></span>                        
+                </div>
+
+                <div class="form-group">
+                        <label>Password :</label>
+                        <input type="password" id="password" class="form-control" name="user" placeholder="Password Anda" autocomplete="off">
+                        <span id="passwords" class="text-danger font-weight-bold"></span>                        
+                </div>
+
+                <div class="form-group">
+                        <label>Confirm Password :</label>
+                        <input type="password" id="confpassword" class="form-control" name="user" placeholder="Confirm Password Anda" autocomplete="off">
+                        <span id="confpasswords" class="text-danger font-weight-bold"></span>                        
+                </div>
+
+                <div class="form-group">
+                        <label>Nama Lengkap :</label>
+                        <input type="text" id="namalengkap" class="form-control" name="user" placeholder="Nama Lengkap Anda" autocomplete="off">
+                        <span id="namalengkaps" class="text-danger font-weight-bold"></span>                        
+                </div>
+
+                <div class="form-group">
+                        <label>Tahun Lulus :</label>
+                        <input type="number" id="tahunlulusid" class="form-control" name="user" placeholder="Tahun Lulus Anda" autocomplete="off">
+                        <span id="tahunlulusids" class="text-danger font-weight-bold"></span>                        
+                </div>
+
+                <div class="form-group">
+                        <label>Alamat:</label>
+                        <input type="text" id="alamat" class="form-control" name="user" placeholder="Alamat Anda" autocomplete="off">
+                        <span id="alamats" class="text-danger font-weight-bold"></span>                        
+                  </div>
+
+                  <div class="form-group">
+                        <label>Alasan Menjadi Anggota :</label>
+                        <textarea id="alasan" class="form-control" name="user" placeholder="Alasan Anda" autocomplete="off"></textarea>
+                        <span id="alasans" class="text-danger font-weight-bold"></span>                        
+                  </div>
+
+
+                
+                <div class="submit text-center">
+                        <input type="submit" name="submit" value="Submit" class="btn btn-success">
+                </div>
+                                        
+
+            </form>   
+                 
+            </div>                        
+            </div>
+
+                
+
+            </div>
+            
+        
+
+
+            <!-- Akhir Form Validasi -->
+            <div class="container">
+                    <div class="row mb-4">
+                        <div class="col text-center">
+                            
+                        </div>
+                    </div>
+    
+                    <div class="row justify-content-center">
+                        <div class="col-md-5 text-justify">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reprehenderit neque esse enim culpa! Ratione possimus, beatae ipsam suscipit necessitatibus iste nemo, distinctio maxime eligendi voluptas quaerat nobis minima consectetur?</p>
+    
+                        </div>
+                        <div class="col-md-5 text-justify">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam reprehenderit neque esse enim culpa! Ratione possimus, beatae ipsam suscipit necessitatibus iste nemo, distinctio maxime eligendi voluptas quaerat nobis minima consectetur?</p>
+        
+                        </div>
+                    </div>
+                </div>
+
+            
+            <!-- My JS -->
+            <script src="script.js">
+                
+            </script>
+            
+
+           
+
+
+            <footer class="bg-dark text-white">
+                <div class="container">
+                    <div class="row pt-4">
+                        <div class="col text-center">
+                            <p>Copyright 2018 by M Saeful Amin</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </footer>
+
+
+    
+    
+    
+  </body>
+</html>
+
